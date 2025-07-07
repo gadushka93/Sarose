@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: sarose-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python Sarose.py"
+    pythonVersion: 3.11.8
+
