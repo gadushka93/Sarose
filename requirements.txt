@@ -1,4 +1,7 @@
-python-telegram-bot==20.3
-Pillow==10.2.0         # Nur nötig, wenn du mit Bildern arbeitest
-python-dotenv==1.0.1   # Falls du deine Bot-Tokens in einer .env-Datei speichern willst
+setuptools>=65.5.1
+wheel
 
+python-telegram-bot==20.3
+setuptools>=65.5.1
+wheel
+Pillow==10.2.0
